@@ -1,0 +1,504 @@
+# Grocery-website-
+#HTML
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title>
+grocery webpage
+</title>
+<link rel="stylesheet" type="text/css" href="GROPAGE.css">
+</head>
+<body style="background-color:powderblue;">
+    <p>
+        <h1>GROCERY STORE</h1>
+    </p> 
+    
+    <div class="Search">
+        <input type="text" placeholder="Search"><button>Go</button>
+            
+   </div>
+    <div class="logos">
+        <img src="logo.png"><br>   
+    </div>
+<table border="0" width="100%" height="10%" >
+<tr>
+<td  align="center"><font color="white">Home</td>
+<td  align="center"><font color="white">Categories</td>
+<td  align="center"><font color="white">Cart</td>
+<td  align="center"><font color="white">Profile</td>
+<td  align="center"><font color="white">Sign up</td>
+<td><a href="GROPAGE SIGN IN.html"><font color="white">Sign up</a></td>
+
+</tr>   
+</table> 
+<IMG src="GROBANNER.webp"> 
+    <br>
+<hr /> 
+ <p>
+     <h1>Categories</h1><br>
+</p>  
+<section class="Categories">
+    <div class="Categorie">
+        <img src="fruits.jpg">
+        <H4>FRUITS</H4>
+        <button>Visit</button>
+    </div>
+    <div class="Categorie">
+        <img src="vegetables.jpg">
+        <h4>VEGETABLES</h4>
+        <button>Visit</button>
+   </div>
+</div> 
+
+<hr />
+
+</section>
+<div id="video"> 
+    <div id="play1">
+     <video width="400" height="300" poster="images/video.jpg" controls="controls" preload="none"> 
+       <source type="video/mp4" src="offer3.mp4" /> 
+     </video> 
+  </div>
+  <hr />
+
+  <p>
+    <h1>FRUITS</h1><br>
+</p>  
+
+  <section class="FRUIT">
+    <div class="FRUITS">
+        <img src="mango.jpg">
+        <h4>MANGOES</h4>
+        <button>BUY</button><BR><button>Add to Cart</button>
+   </div>
+   <div class="FRUITS">
+    <img src="grapes.jpg">
+    <h4>GRAPES</h4>
+    <button>BUY</button><BR><button>Add to Cart</button>
+    
+</div>
+<div class="FRUITS">
+    <img src="apple.jpg">
+    <h4>APPLE</h4>
+    <button>BUY</button><BR><button>Add to Cart</button>
+    
+</div>
+<div class="FRUITS">
+    <img src="orange.jpg">
+    <h4>ORANGE</h4>
+    <button>BUY</button><BR> <button>Add to Cart</button>
+   
+</div>
+<div class="FRUITS">
+    <img src="banana.jpg">
+    <h4>BANANA</h4>
+    <button>BUY</button><BR><button>Add to Cart</button>
+    
+</div>
+<div class="FRUITS">
+    <img src="avacado.jpg">
+    <h4>AVACADO</h4>
+    <button>BUY</button><BR> <button>Add to Cart</button>
+   
+</div>
+<div class="FRUITS">
+    <img src="litchi.jpg">
+    <h4>LITCHI</h4>
+    <button>BUY</button><BR><button>Add to Cart</button>
+    
+</div>
+<div class="FRUITS">
+    <img src="sapota.jpg">
+    <h4>SAPOTA</h4>
+    <button>BUY</button><BR><button>Add to Cart</button>
+    
+</div>
+<br>
+</section>
+<hr />
+<p>
+    <h1>VEGETABLES</h1><br>
+</p>  
+<section class="VEGETABLE">
+    <div class="VEGETABLES">
+        <img src="carrot.jpg">
+        <h4>CARROT</h4>
+        <button>BUY</button><BR><button>Add to Cart</button>
+        
+    </div>
+    <div class="VEGETABLES">
+        <img src="tomato.jpg">
+        <h4>TOMATO</h4>
+        <button>BUY</button><BR><button>Add to Cart</button>
+        
+    </div>
+    <div class="VEGETABLES">
+        <img src="potato.jpg">
+        <h4>POTATO</h4>
+        <button>BUY</button><BR><button>Add to Cart</button>
+        
+    </div>
+    <div class="VEGETABLES">
+        <img src="cauliflower.jpg">
+        <h4>CAULIFLOWER</h4>
+        <button>BUY</button><BR><button>Add to Cart</button>
+        
+    </div>
+    <div class="VEGETABLES">
+        <img src="spinach.jpg">
+        <h4>SPINACH</h4>
+        <button>BUY</button><BR><button>Add to Cart</button>
+        
+    </div>
+    <div class="VEGETABLES">
+        <img src="beans.jpg">
+        <h4>BEANS</h4>
+        <button>BUY</button><BR><button>Add to Cart</button>
+        
+    </div>
+    <div class="VEGETABLES">
+        <img src="peas.jpg">
+        <h4>PEAS</h4>
+        <button>BUY</button><BR><button>Add to Cart</button>
+        
+    </div>
+    <div class="VEGETABLES">
+        <img src="onion.jpg">
+        <h4>ONION</h4>
+        <button>BUY</button><BR><button>Add to Cart</button>
+        
+    </div>
+    <br>
+</section>
+<hr />
+<hr />
+</div><br><br>
+<section class="foot">
+<footer>
+  <p> <img src="app logo.png" > <img src="PLAY LOGO.png"></p>
+</footer>
+</section>
+</body>
+
+
+
+
+</HTML>
+.CSS 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+.logos{
+    width: 60px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.Search{
+    
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 16px;
+    font-size: 17px;
+   
+}
+td{
+    width: 16.6%;
+    text-align:center;
+    color:rgb(15, 123, 232);
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(15, 123, 232);
+}
+td:hover{
+ transform: scale(1.04);   
+ background-color: rgb(63, 192, 243) ;
+}
+img{
+    width: 100%;
+    
+}
+h1{
+    color: rgb(76, 131, 198);
+    text-align: center;
+    
+}
+h1:hover{
+    transform: scale(1.04);
+}
+.Categories{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    padding: 15px 10px;
+}
+.Categorie h4{
+    padding: 5px;
+    text-align: center;
+}
+.Categorie img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border-radius: 50PX;
+
+}
+.Categorie img:hover{
+    transform: scale(1.08);
+}
+.Categorie button{
+      padding: 5px 30px;
+      border: none;
+      outline: none;
+      background-color: rgb(7, 51, 161);
+      color: aliceblue;
+      cursor: pointer;
+      border-radius: 50px;
+      font-size: 20px;
+      display: block;
+      margin: 0 auto;
+      transform: 0.2s all;
+}
+.Categorie button:hover{
+    transform: scale(1.08);
+}
+#video { 
+    width: 920px; 
+    height: 350px; 
+    margin: 0 auto; 
+} 
+
+#play1 { 
+    width: 400px; 
+    height: 300px; 
+    float: left; 
+} 
+@media (max-width:767px) {
+    .play1 {
+        position: relative;
+        padding-bottom: 56.25%; 
+        padding-top: 30px; 
+        overflow: hidden;
+    }
+    .play2 {
+        margin-left: 0;
+    }
+}
+
+.FRUIT{
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    padding: 15px 10px;
+}
+.FRUITS h4{
+    padding: 5px;
+    text-align: center;
+}
+.FRUITS img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border-radius: 50PX;
+
+}
+.FRUITS img:hover{
+    transform: scale(1.08);
+}
+.FRUITS button{
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      background-color: rgb(88, 123, 211);
+      color: aliceblue;
+      cursor: pointer;
+      border-radius: 50px;
+      font-size: 10px;
+      display: block;
+      margin: 0 auto;
+      transform: 0.2s all;
+}
+.FRUITS button:hover{
+    transform: scale(1.08);
+}
+.VEGETABLE{
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    padding: 15px 10px;
+}
+.VEGETABLES h4{
+    padding: 5px;
+    text-align: center;
+}
+.VEGETABLES img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border-radius: 50PX;
+
+}
+.VEGETABLES img:hover{
+    transform: scale(1.08);
+}
+.VEGETABLES button{
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      background-color: rgb(88, 123, 211);
+      color: aliceblue;
+      cursor: pointer;
+      border-radius: 50px;
+      font-size: 10px;
+      display: block;
+      margin: 0 auto;
+      transform: 0.2s all;
+}
+.VEGETABLES button:hover{
+    transform: scale(1.08);
+}
+.foot{
+    text-align: center;
+  padding: 3px;
+  background-color: rgb(185, 194, 212);
+  color: rgb(45, 164, 93);
+}
+.foot img{
+    width: 10%;
+    height: 30px;
+    }
+.foot img:hover{
+    transform: scale(1.08);
+}  
+
+
+@media screen and (max-width:1000px) {
+    .Categories{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+}
+@media screen and (max-width:768px) {
+    .Categories{
+    grid-template-columns: repeat(1 ,1fr);
+    }
+}
+>>CODE OF SIGN IN.html
+<html>
+<head>
+<title> GROPAGE LOG IN</title>
+<link rel="stylesheet" type="text/css" href="GROPAGE SIGN IN.css">
+<body>
+<div class="login">
+    <img src="loginav.png" class="avatar">
+    <h1>LOGIN HERE</h1>
+    <form>
+        <p>USER NAME</p>
+        <input type="text" name="" placeholder="ENTER USER NAME">
+        <p>PASSWORD</p>
+        <input type="PASSWORD" name="" placeholder="ENTER PASSWORD">
+        <input type="submit" name="" value="LOG IN"><br>
+        <p><a href="#">Forgot password</a>  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;<a href="#">Create account </a></p> 
+    </form>
+</div>
+</body>     
+</head>
+</html>
+>>CODE OF SIGN IN.css
+body{
+    margin: 0;
+    padding: 0;
+    background: url(signinbg1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.login{
+    width: 320px;
+    height: 420px;
+    background: rgb(6, 6, 7);
+    color: rgb(223, 79, 53);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box; 
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    
+}
+h1{
+   margin: 0;
+   padding: 0 0 20px;
+   text-align: center ;
+   font-size: 22px;
+
+}
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login input[type="text"], input[type="PASSWORD"]
+{
+    border: none;
+    border-bottom: 1px  solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(245, 29, 76);
+    font-size: 16px;
+}
+.login  input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #30ea0b;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 250px;
+}
+.login  input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #07c9ff;
+    color : #000;
+}
+.login a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(11, 101, 235);
+}
+.login a:hover
+{
+    color:skyblue;
+}
+
+                                                  
